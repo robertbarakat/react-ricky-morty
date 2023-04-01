@@ -1,0 +1,1 @@
+export type IGenericObject = Record<string, unknown>

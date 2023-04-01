@@ -1,0 +1,15 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 22.5%;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+.cardContainer .cardImage {
+    width: -webkit-fill-available;
+}
+
+.cardContainer .cardBody {
+    padding: .5rem;
+}

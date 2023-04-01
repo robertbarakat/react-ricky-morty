@@ -1,0 +1,49 @@
+.spinnerContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+    pointer-events: none;
+  }
+
+  .spinnerContainer .spinnerBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: .5;
+    z-index: 0;
+  }
+
+  .spinnerContainer img {
+    height: auto;
+    width: 200px;
+  }
+
+  .spinnerContainer h5 {
+    z-index: 1;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .spinnerLogo {
+      animation: spinnerLogoSpin infinite 2s linear;
+    }
+  }
+  
+  @keyframes spinnerLogoSpin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

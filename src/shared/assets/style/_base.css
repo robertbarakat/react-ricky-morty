@@ -1,0 +1,2 @@
+/* File in which all the common styles are centralized ti be imported by the main index.css */
+@import "./_variables.css";
