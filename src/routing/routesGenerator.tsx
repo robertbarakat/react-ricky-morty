@@ -4,8 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { routes } from './routes';
 
 /**
- * Metodi per la generazione di routes
- * @summary Vengono definiti metodi per generare le routes in base a profilo utenti
+ * Routes generation methods
+ * @summary The project's routes can be generated according to several parameters such as user profile, role, etc.
  */
 
 export const generateAllRoutes = () => {

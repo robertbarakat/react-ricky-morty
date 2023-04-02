@@ -1,0 +1,6 @@
+/* File in which all the common styles are centralized to be imported by the main index.css */
+@import "./_variables.css";
+
+.cursor-pointer {
+    cursor: pointer;
+}

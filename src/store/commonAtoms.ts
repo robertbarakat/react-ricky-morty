@@ -1,4 +1,4 @@
 import { atom } from "jotai";
 
-// Atom to trigger the Spinner component upon loading
+// Atom to toggle the Spinner component
 export const toggleSpinner = atom<boolean>(false)

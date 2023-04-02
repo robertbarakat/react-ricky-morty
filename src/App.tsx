@@ -1,7 +1,7 @@
 import { useAtom } from "jotai";
+import { Spinner } from "./components";
 import { generateAllRoutes } from "./routing/routesGenerator";
 import { toggleSpinner } from "./store";
-import { Spinner } from "./components";
 
 /**
  * APP Component

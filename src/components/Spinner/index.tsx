@@ -3,8 +3,7 @@ import spinnerStyle from './Spinner.module.css'
 
 /**
  * Componente Spinner
- * @component
- * @summary Spinner da utilizzare in fase di loading di dati
+ * @summary Spinner to be shown while loading data
  */
 
 function Spinner() {

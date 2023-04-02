@@ -1,2 +1,6 @@
 /* Import of the global styles */
-@import './shared/assets/style/_base.css';
+@import './shared/style/_base.css';
+
+body {
+    color: var( --main-color)
+}

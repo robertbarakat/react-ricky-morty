@@ -1,7 +1,7 @@
 .cardContainer {
     display: flex;
     flex-direction: column;
-    max-width: 22.5%;
+    width: 400px;
     border: 1px solid black;
     border-radius: .5rem;
 }
@@ -13,3 +13,17 @@
 .cardContainer .cardBody {
     padding: .5rem;
 }
+
+.cardContainer .cardLink {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--links-color);
+    cursor: pointer;
+}
+
+.cardContainer .cardLink:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
